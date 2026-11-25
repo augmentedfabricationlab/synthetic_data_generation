@@ -1,0 +1,209 @@
+{
+  "brick_size": [
+    0.25,
+    0.12,
+    0.065
+  ],
+  "bricks": [
+    {
+      "file": "brick_00000.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00001.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00002.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00003.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00004.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00005.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00006.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00007.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00008.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00009.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00010.obj",
+      "damage_type": "surface"
+    },
+    {
+      "file": "brick_00011.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00012.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00013.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00014.obj",
+      "damage_type": "surface"
+    },
+    {
+      "file": "brick_00015.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00016.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00017.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00018.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00019.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00020.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00021.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00022.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00023.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00024.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00025.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00026.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00027.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00028.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00029.obj",
+      "damage_type": "surface"
+    },
+    {
+      "file": "brick_00030.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00031.obj",
+      "damage_type": "surface"
+    },
+    {
+      "file": "brick_00032.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00033.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00034.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00035.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00036.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00037.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00038.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00039.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00040.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00041.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00042.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00043.obj",
+      "damage_type": "none"
+    },
+    {
+      "file": "brick_00044.obj",
+      "damage_type": "none"
+    },
+    {
+      "file": "brick_00045.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00046.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00047.obj",
+      "damage_type": "corner"
+    },
+    {
+      "file": "brick_00048.obj",
+      "damage_type": "surface"
+    },
+    {
+      "file": "brick_00049.obj",
+      "damage_type": "corner"
+    }
+  ]
+}

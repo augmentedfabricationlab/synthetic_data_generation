@@ -1,0 +1,5 @@
+# Blender backups, editor and Python caches
+*.blend1
+*~
+__pycache__/
+.vscode/

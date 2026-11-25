@@ -162,7 +162,10 @@ python code/allocation_rendering_pipeline/grade_brick_stock.py --stock-dir data/
 
 Builds the container structure, labels its facade with a design logic, and allocates stock bricks to it.
 
-**Option 1 (Rhino/Grasshopper):** open `rhino/masonry_allocation.ghx` to design, allocate and preview the structure interactively.
+**Option 1 (Rhino/Grasshopper):** open `rhino/masonry_allocation.ghx` to design, allocate and preview the structure interactively. For this:
+
+- Add `assembly_information_model/src` and `synthetic_data_generation/code` to Python's module search paths. In the Grasshopper Script Editor, go to *Tools → Options → Python 3 → Module Search Paths*. 
+- Install `compas`, `shapely` and `scipy` into Rhino's Python environment (`.rhinocode`). 
 
 **Option 2 (Python):** edit the wall (`build_wall`), label (`label_facade`) and stock filename in the script, then run:
 

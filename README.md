@@ -25,6 +25,11 @@ generate brick stock ────┤
 | Render views of each brick (BOP format, COCO annotations) | `code/brick_stock_pipeline/dataset_from_brick_stock.py` |
 | Label per-pixel damage masks for the segmentation head | `code/brick_stock_pipeline/label_damage_masks.py` |
 
+*Sample Outputs*: Rendered views with their damage masks (RGB | damage overlay | class labels).
+
+![Damage mask preview, frame 0](data/dataset_from_brick_stock/damage_mask_preview/train_pbr_000000_frame000000.png)
+![Damage mask preview, frame 42](data/dataset_from_brick_stock/damage_mask_preview/train_pbr_000000_frame000042.png)
+
 **B. Simulated visualisation**: grades the brick stock, allocates bricks into a wall, and renders the result.
 
 | Step | Script |
@@ -34,6 +39,11 @@ generate brick stock ────┤
 | Design and allocate the target structure | `rhino/masonry_allocation.ghx` or `code/allocation_rendering_pipeline/design_allocate_target_structure.py` |
 | Render the allocated structure (PNG or `.blend`) | `code/allocation_rendering_pipeline/render_allocated_wall.py` |
 
+*Sample Outputs*: Allocated walls rendered with two facade design logics.
+
+| Gradient | Bracing |
+|---|---|
+| ![Gradient tall wall](data/renders/gradient_tall_wall.png) | ![Bracing tall wall](data/renders/bracing_tall_wall.png) |
 
 ---
 
@@ -71,21 +81,6 @@ synthetic_data_generation/
 
 > [!NOTE]
 > `data/` only contains a **small sample** for testing the pipelines: 50 bricks in `brick_stock/`, 100 frames in `dataset_from_brick_stock/train_pbr/000000/`, and the material stock graded from those 50 bricks. Generate a larger stock and dataset with the scripts below.
-
----
-
-## Sample Outputs
-
-**A. Training data**: rendered views with their damage masks (RGB | damage overlay | class labels).
-
-![Damage mask preview, frame 0](data/dataset_from_brick_stock/damage_mask_preview/train_pbr_000000_frame000000.png)
-![Damage mask preview, frame 42](data/dataset_from_brick_stock/damage_mask_preview/train_pbr_000000_frame000042.png)
-
-**B. Simulated visualisation**: allocated walls rendered with two facade design logics.
-
-| Gradient | Bracing |
-|---|---|
-| ![Gradient tall wall](data/renders/gradient_tall_wall.png) | ![Bracing tall wall](data/renders/bracing_tall_wall.png) |
 
 ---
 
